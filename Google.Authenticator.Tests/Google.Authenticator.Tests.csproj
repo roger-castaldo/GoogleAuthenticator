@@ -22,10 +22,10 @@
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' != 'net452'">
     <PackageReference Include="ZXing.Net.Bindings.Magick" Version="0.16.9" />
-	<PackageReference Include="Shouldly" Version="4.0.3" />
+	<PackageReference Include="Shouldly" Version="4.1.0" />
   </ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net452'">
-		<PackageReference Include="Shouldly" Version="3.0.2" />
+		<PackageReference Include="Shouldly" Version="4.1.0" />
 	</ItemGroup>
 	<ItemGroup>
     <ProjectReference Include="..\Google.Authenticator\Google.Authenticator.csproj" />
